@@ -1,6 +1,6 @@
 {
-  "name": "@strapitools/strapi-middleware-cache",
-  "version": "1.4.2",
+  "name": "@ramishvili/strapi-middleware-cache",
+  "version": "1.0.1",
   "description": "Cache strapi requests",
   "main": "./lib",
   "scripts": {
@@ -14,9 +14,9 @@
     "memcache"
   ],
   "directories": {
-    "lib": "./lib"
+    "lib": "strapi-middleware-cache/lib"
   },
-  "author": "amo",
+  "author": "ramishvili",
   "license": "MIT",
   "dependencies": {
     "ioredis": "^4.17.1",
@@ -32,5 +32,13 @@
     "mocha": "^7.1.1",
     "supertest": "^4.0.2",
     "supertest-koa-agent": "^0.3.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amoramishvili/strapi-middleware-cache.git"
+  },
+  "bugs": {
+    "url": "https://github.com/amoramishvili/strapi-middleware-cache/issues"
+  },
+  "homepage": "https://github.com/amoramishvili/strapi-middleware-cache#readme"
 }
