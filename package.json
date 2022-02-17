@@ -1,6 +1,6 @@
 {
   "name": "strapi-middleware-memcache",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cache strapi requests",
   "main": "./lib",
   "scripts": {
