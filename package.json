@@ -1,8 +1,8 @@
 {
-  "name": "@ramishvili/strapi-middleware-cache",
+  "name": "strapi-middleware-cache",
   "version": "1.0.1",
   "description": "Cache strapi requests",
-  "main": "./lib",
+  "main": "./strapi-middleware-cache/lib",
   "scripts": {
     "test": "mocha ./tests/*.test.js --exit"
   },
