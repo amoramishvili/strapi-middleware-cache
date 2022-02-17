@@ -1,8 +1,8 @@
 {
-  "name": "strapi-middleware-cache",
-  "version": "1.0.1",
+  "name": "strapi-middleware-memcache",
+  "version": "1.0.0",
   "description": "Cache strapi requests",
-  "main": "./strapi-middleware-cache/lib",
+  "main": "./lib",
   "scripts": {
     "test": "mocha ./tests/*.test.js --exit"
   },
@@ -14,7 +14,7 @@
     "memcache"
   ],
   "directories": {
-    "lib": "strapi-middleware-cache/lib"
+    "lib": "/lib"
   },
   "author": "ramishvili",
   "license": "MIT",
